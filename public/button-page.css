@@ -1,0 +1,19 @@
+.btn-container {
+            height: 50vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+.btn-wrapper {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 50px;
+        }
+.form-submission {
+        background-color: lightgreen;
+        position:fixed;
+        bottom: 10px;
+        right:10px;
+        padding: 5px;
+}

@@ -1,0 +1,19 @@
+<div class="btn-container">
+<div class="btn-wrapper">
+<form action="/button-page" method="post">
+<input type="hidden" name="username" value={{username}}>
+<input type="hidden" name="button" value="button1">
+<button name="button" id="button1" type="submit">Button 1</button>
+</form>
+</div>
+<div class="btn-wrapper">
+<form action="/button-page" method="post">
+<input type="hidden" name="username" value={{username}}>
+<input type="hidden" name="button" value="button2">
+<button name="button" id="button2" type="submit">Button 2</button>
+</form>
+</div>
+</div>
+{{#if showMessage}}
+<span class="form-submission" id="message">Button clicked successfully!</span>
+{{/if}}
