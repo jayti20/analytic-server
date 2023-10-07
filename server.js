@@ -53,11 +53,11 @@ pool.query(
 // });
 // });
 let userData = [];
-app.get("/user", (req, res) => {
+app.get("/", (req, res) => {
   res.render("form");
 });
 
-app.post("/user", (req, res) => {
+app.post("/", (req, res) => {
   res.redirect("/button-page?username=" + req.body.username);
 });
 
